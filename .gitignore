@@ -1,0 +1,19 @@
+# зависимости
+/node_modules
+
+# сборка Next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+
+# окружение — ключи никогда не коммитим
+.env
+.env*.local
+
+# прочее
+.DS_Store
+.vercel
+npm-debug.log*
+coverage
